@@ -17,6 +17,7 @@ function Location() {
                     {/* <h2 className="gallery-heading">Gallery</h2> */}
                     
                     {/* <PhotoCarousel /> */}
+                    {/* lala */}
                     <div id="photos">
                     <img src={img1} alt="Nail design" width="500" height="600"/>
                     <img src={img1} alt="Nail design" width="500" height="600"/>
@@ -33,4 +34,4 @@ function Location() {
     );
 }
 
-export default Location;
+export default Location; 
