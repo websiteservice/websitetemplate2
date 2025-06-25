@@ -29,6 +29,7 @@ body, html, #root {
     display: grid;
     /* grid-template-columns: minmax(250px, var(--header-width)) 1fr; */
     /* height: 100vh; */
+    
 }
 
 .container {
@@ -45,9 +46,9 @@ body, html, #root {
   
   
   
-  
 .container > div {
     background-color: rgba(255, 255, 255, 0.8);
+    
 }
 .container > div.header {
     grid-area: header;

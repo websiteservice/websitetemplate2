@@ -11,9 +11,9 @@ function Contact() {
         <div className="menu"><Header /></div>
         
         <div className="content">
-
+        <Title titleName="Contact" />
         <main className="contact-container">
-          <Title titleName="Contact" />
+          
 
           <p className="contact-subtitle">
             For bookings, availability, or questions, please get in touch via the details below.

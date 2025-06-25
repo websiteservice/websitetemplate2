@@ -9,16 +9,17 @@ function Bookings() {
     <div className="container">
       <div className="menu"><Header /></div>
       <div className="content">
-      
+      <Title titleName="Bookings" />
       {/* <div className="content"> */}
         <main className="bookings-container">
-          <Title titleName="Bookings" />
-          <iframe 
+          
+          {/* <iframe 
           src="https://elisasnails.simplybook.me/v2/" 
           width="100%" 
           height="600px" 
           frameborder="0">
-        </iframe>
+        </iframe> */}
+        <div id="largeSpace"></div>
 
           <div className='intro'>
             <section className="booking-info">
