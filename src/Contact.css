@@ -1,34 +1,52 @@
 .contact-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .contact-subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: #333;
-  }
-  
-  .contact-details {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    font-size: 1.1rem;
-    color: #333;
-    line-height: 1.8;
-  }
-  
-  .insta-link {
-    color: #f06292;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 6px;
-  }
-  
-  .insta-link:hover {
-    text-decoration: underline;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: left; /* align text left inside container */
+  padding-bottom: 18rem;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.left-side {
+  flex: 1;
+  /* You can add width or min-height if needed */
+  /* Example: min-height: 200px; */
+}
+
+.right-side {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.insta-link {
+  color: #f06292;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.insta-link:hover {
+  text-decoration: underline;
+}
+
+/* #bigSpace {
+  padding-bottom: 20rem; 
+} */
