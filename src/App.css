@@ -1,0 +1,85 @@
+/* Example CSS Grid Layout */
+
+body, html, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.app-container {
+    display: grid;
+    grid-template-columns: minmax(250px, var(--header-width)) 1fr;
+    height: 100vh;
+}
+
+/* Sidebar styles */
+.navBar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    /* no fixed positioning */
+}
+
+/* Content area */
+.page-content {
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.content {
+    display: grid;
+    /* grid-template-columns: minmax(250px, var(--header-width)) 1fr; */
+    /* height: 100vh; */
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+      "menu content"
+      "footer footer";
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+    gap: 0; /* if you had gaps, remove or reduce */
+    padding: 0;
+  }
+  
+  
+  
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.container > div.header {
+    grid-area: header;
+    text-align: center;
+}
+.container > div.menu {
+    grid-area: menu;
+    background-color: #991717;
+}
+.container > div.content {
+    grid-area: content;
+}
+.container > div.footer {
+    grid-area: footer;
+    /* background-color: #773030; */
+}
+.container > .menu {
+    grid-area: menu;
+    height: 100%;
+    align-self: stretch; /* ensures it expands to fill vertical grid area */
+  }
+  
+  
+  .container > .footer {
+    grid-area: footer;
+    align-self: stretch; /* Ensure it fills vertical space of grid row */
+    width: 100%; /* Make it fill horizontal space of its column */
+    background-color: #222;
+    }
+  
+  .footer {
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  
