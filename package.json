@@ -1,8 +1,8 @@
 {
-  "name": "websitetemplate",
+  "name": "websitetemplate2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://websiteservice.github.io/websitetemplate",
+  "homepage": "https://websiteservice.github.io/websitetemplate2",
   "type": "module",
   "scripts": {
     "dev": "vite",

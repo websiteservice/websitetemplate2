@@ -3,9 +3,10 @@
 .Heading {
   font-family: 'Rouge Script', cursive;
   font-size: 8rem;
-  text-align: center;
+  text-align: left;
   margin-top: 3rem;
   color: #000000;
+  padding-left: 2rem;
 }
 
 /* .content {
@@ -106,4 +107,10 @@
   .headshotImg {
     width: 80%;
   }
+}
+
+.container {
+  background-image: url('/src/assets/nailsImages/3.png');
+  background-size: cover;
+  background-position: center bottom;
 }

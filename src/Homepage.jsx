@@ -9,16 +9,18 @@ import Footer from './components/Footer';
 function Homepage() {
   return (
     <>
+    
     <div className="container">
       <div className="menu"><Header /></div>
       {/* <div className="content"> */}
       <div className="content">
       
       <h1 className="Heading">Elisa's Nails</h1>
-      <section className="intro">
       
         {/* <img src={vanessaImg} className="headshotImg" alt="Vanessa" /> */}
 
+      {/* <section className="intro">
+      
         <div className="bio">
           <h2 className="name">Hi, I&apos;m Elisa!</h2>
           <p className="description">
@@ -29,7 +31,7 @@ function Homepage() {
           </p>
 
         </div>
-      </section>
+      </section> */}
       </div>  
       {/* </div> */}
       <div className='footer'><Footer /></div>

@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     {/* change this basename */}
-      <Router basename='/websitetemplate'>
+      <Router basename='/websitetemplate2'>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/bookings" element={<Bookings />} />
